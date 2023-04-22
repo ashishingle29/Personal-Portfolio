@@ -93,7 +93,7 @@ const HeroSection = ({ nav, handleNav }) => {
 				whileInView='visible'
 				className='hero-content'>
 				<p className='hero-intro'>
-					<span>Ashish</span> <span>Ingle.</span>
+					<span> Ashish Ingle.</span>
 				</p>
 				<p className='hero-desc'>
 					I'm a <span className='hero-desc-sub'>MERN stack developer.</span>
@@ -104,8 +104,10 @@ const HeroSection = ({ nav, handleNav }) => {
 				initial='hidden'
 				whileInView='visible'>
 				<a
-					href='Ashish_Ingle_Resume.pdf'
+					href='https://rxresu.me/ashishingle/ashish-ingle'
 					download='Ashish_Ingle_Resume'
+					target='_blank'
+					rel="noreferrer"
 					className='hero-contact'>
 					Download Resume <BiDownload className='cv-icon' />
 				</a>

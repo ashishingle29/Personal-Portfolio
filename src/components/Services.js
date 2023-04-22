@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/Services.css"
 // import {IoColorWandOutline} from "react-icons/io5"
 import {BiCodeAlt} from "react-icons/bi"
-// import {BsPaletteFill} from "react-icons/bs"
+import { BsWordpress } from "react-icons/bs"
 import { motion } from "framer-motion";
 
 const Services = () => {
@@ -28,11 +28,14 @@ const Services = () => {
                         <p className='services-title'>Web Development</p>
                         <p className='services-desc'>I use various web technologies to develop attractive,creative, interactive, responsive and functional website layouts. </p>
                     </div>
-                    {/* <div className="services-card">
-                        <BsPaletteFill className='services-icon' />
-                        <p className='services-title'>Graphic Design</p>
-                        <p className='services-desc'>I create captivating and high quality graphics and logo designs where user readability, coupled with best design practices are prioritized</p>
-                    </div> */}
+                    <div className="services-card">
+                          <BsWordpress className='services-icon' />
+                          <p className='services-title'>Wordpress Developer</p>
+                          <p className='services-desc'>
+                              i have 2+ years of experience in wordpress development. I have developed many websites using wordpress.like blog website, e-commerce website etc.
+                          </p>
+
+                    </div>
                     {/* <div className="services-card">
                         <IoColorWandOutline className='services-icon' />
                         <p className='services-title'>UI Design</p>

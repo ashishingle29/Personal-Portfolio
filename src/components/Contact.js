@@ -33,15 +33,15 @@ const Contact = () => {
                             <div className="contact-heading">
                                 <p>I'm interested in freelance opportunities - especially ambitious or large projects. However, if you have other request or question, don't hesitate to use the form</p>
                             </div>
+                        </motion.div>
+                        <motion.div className="right-box" initial={{ opacity: 0, y: '50px' }} whileInView={verticalLeft}>
                             <div className="contact-hello">
                                 <p>Say Hello</p>
                                 <Link className='hello-links' to="https://wa.me/+919340678836" target='_blank'>wa.me/9340678836</Link>
                                 <Link className='hello-links' to="mailto:ashishingle589@gmail.com" target='_blank'>ashishingle589@gmail.com</Link>
                             </div>
-                        </motion.div>
-                        <motion.div className="right-box" initial={{ opacity: 0, y: '50px' }} whileInView={verticalLeft}>
 
-                            <form
+                            {/* <form
                                 name="contact-form"
                                 method="POST"
                                 data-netlify="true"
@@ -90,7 +90,7 @@ const Contact = () => {
                                         Send Message
                                     </button>
                                 </div>
-                            </form>
+                            </form> */}
                         </motion.div>
                     </div>
                 </div>
