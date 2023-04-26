@@ -28,7 +28,7 @@ export const WorkData = [
 		site: "https://ai-todo-list.netlify.app/",
 	},
 	{
-		title: "Ai Video Player",
+		title: "YT Search Video Player",
 		desc: "Youtube Search Video Player",
 		tech: ["React.js", "CSS", "HTML", "Public APIs"],
 		gitlink: "https://github.com/ashishingle29/Ai-Video-Player",
@@ -68,5 +68,12 @@ export const WorkData = [
 		tech: ["NodeJs", "MongoDb", "ExpressJs", "Redis", "Axios"],
 		gitlink: "https://github.com/ashishingle29/Projects/tree/project/AI_URL_Shortner",
 		site: "https://github.com/ashishingle29/Projects/tree/project/AI_URL_Shortner",
+	},
+	{
+		title: "Apply for Internship",
+		desc: "A website to apply for internship and view the list of applicants",
+		tech: ["NodeJs", "MongoDb", "ExpressJs"],
+		gitlink: "https://github.com/ashishingle29/Projects/tree/project/ApplyForInternship",
+		site: "https://github.com/ashishingle29/Projects/tree/project/ApplyForInternship",
 	}
 ];

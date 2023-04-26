@@ -47,10 +47,10 @@ export const SkillsData = [
 		name: "React Js",
 		icon: <FaReact />,
 	},
-	{
-		name: "Next Js",
-		icon: <SiNextdotjs />,
-	},
+	// {
+	// 	name: "Next Js",
+	// 	icon: <SiNextdotjs />,
+	// },
 	// {
 	// 	name: "Python",
 	// 	icon: <FaPython />,
