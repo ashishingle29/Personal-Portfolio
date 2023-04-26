@@ -16,7 +16,7 @@ import { VscJson } from "react-icons/vsc";
 import {
 	SiRedis,
 	SiTailwindcss,
-	SiNextdotjs,
+	// SiNextdotjs,
 	SiPostman,
 	SiMongodb,
 	SiExpress,
