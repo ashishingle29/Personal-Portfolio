@@ -32,7 +32,7 @@ const Services = () => {
                           <BsWordpress className='services-icon' />
                           <p className='services-title'>Wordpress Developer</p>
                           <p className='services-desc'>
-                              i have 2+ years of experience in wordpress development. I have developed many websites using wordpress.like blog website, e-commerce website etc.
+                              i have 4+ years of experience in wordpress development. I have developed many websites using wordpress.like blog website, e-commerce website etc.
                           </p>
 
                     </div>
