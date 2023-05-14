@@ -3,8 +3,15 @@ export const WorkData = [
 		title: "Ai Tools Hub",
 		desc: "It is a Tools website. here i add many different daily using tools like Text Sharing, Weather App, Video Player, Youtube Search, Google Search etc.",
 		tech: ["NodeJs", "MongoDb", "ExpressJs", "React", "HTML", "CSS", "Axios"],
-		gitlink: "https://github.com/ashishingle29/Tools-Hub",
+		gitlink: "https://github.com/ashishingle29/Tools-Hub.git",
 		site: "https://toolshub.netlify.app/",
+	},
+	{
+		title: "Ai ToDo App",
+		desc: "AI Todo App is a task manager application where users can create tasks and handle their status as completed or uncompleted.Users can also delete tasks and handle login/ signup.",
+		tech: ["NodeJs", "MongoDb", "ExpressJs", "React", "Vite", "HTML", "CSS", "Axios"],
+		gitlink: "https://github.com/ashishingle29/TODO-App.git",
+		site: "https://aitodoapp.netlify.app/",
 	},
 	{
 		title: "AiMovies",
